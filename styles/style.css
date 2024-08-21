@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-fondo:#000814;
+    --color-primario: #fff3b0;
+    --color-secundario: #ffd60a;
+    --color-terceario: #fcf6bd;
+
+    --fuente-monse: "Montserrat", sans-serif ;
+    --fuente-kono: "Krona One", sans-serif ;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:var(--color-fondo);
+    color: var(--color-primario);
+    box-sizing: border-box;
+     }
+
+ .Header{
+    padding: 2% 0% 0% 10%;
+ }
+
+ .Header__menu{
+    display: flex;
+    gap: 80px;
+ }
+
+ .Header__menu__links{
+    font-family: var(--fuente-monse);
+    font-size: 18px;
+    font-weight: 600px;
+    color: var(--color-secundario);
+ }
+
+.Titulo-fron 
+{
+    color: blueviolet;
+    
+
+}
+
+.Presentacion{
+    display: flex;
+    align-items: center;
+   /* margin: 5%  10%;  se elimina el margen */
+   padding: 1% 10%;
+    justify-content: space-between;
+}
+
+.Presentacion__contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.Presentacion__contenido__titulo{
+    font-size: 24px;
+    font-family: var(--fuente-kono);
+    text-align: center;
+}
+
+
+.Presentacion__contenido__texto{
+    font-size: 18px;
+    font-family: var(--fuente-monse);
+}
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.presentacion__enlaces__LINK{
+    display: flex;
+    width: 250px;
+    text-align: center;
+    padding: 10.5px 0;
+    border-radius: 6px;
+    font-family: var(--fuente-monse);
+    font-size: 16px;
+    font-weight: 250;
+    text-decoration:none;
+    color: var(--color-terceario);
+    border: 2px solid var(--color-secundario);
+    justify-content: center;
+    gap: 15px;
+}
+
+.presentacion__enlaces__sutitulo{
+    font-family: var(--fuente-kono);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.presentacion__enlaces__LINK:hover{
+    background-color: #9ab6cc;
+}
+
+span{
+    
+    display: flex;
+    font-family: "Montserrat";
+    justify-content: right;
+    color: rgb(212, 72, 25);
+    margin: 20px;
+    padding: 20px 15px;
+         
+    
+}
+
+.consola{
+    
+    font-family: "Montserrat";
+    text-align:center;
+    color:#0a0a0a;
+    display:none;
+       
+}
+
+
+span:hover+.consola{
+    display:block ;
+    background-color: #d5e2e0;
+    padding: 21.5px 15px;
+  
+}
+
+
+.footer{
+ background-color: var(--color-secundario);
+ padding: 14px;
+ color: #0a0a0a;
+ text-align: center;
+ font-family: var(--fuente-monse);
+ font-size: 16px;
+ font-weight: 00px;
+
+}
+
+.imgYas{
+
+width: 450px;
+height: 450px;
+top: 300px;
+left: 1000px;
+gap: 10px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+ }
+
+
+
+ /* Esto es un comentario en CSS */
